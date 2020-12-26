@@ -1,0 +1,5 @@
+time = int(input('Введите количество секунд для преобразования: '))
+hour = int(time/3600)
+minute = int((time%3600)/60)
+sec = int(time-((hour*3600)+(minute*60)))
+print ('Ваше количество секунд в формате чч:мм:сс: '+ str(hour) + ':' + str(minute) + ':' + str(sec))
