@@ -1,14 +1,16 @@
-user = input('Введите слова, разделённые пробелом: ')
-user = user.split(' ')
-flist = user
-print (flist)
-print (len(flist[0]))
-m = 0
-n = 0
-for i in flist:
-	if (len(flist[m]))>=10:
-		print ('№' + str(m+1) + ': ' + str(i[:10]))
-		m += 1
-	else:
-		print ('№' + str(m+1) + ': ' + str(flist[m]))
-		m += 1
+
+# Программа принимает действительное положительное число x
+# и целое отрицательное число y. Необходимо выполнить возведение
+# числа x в степень y. Задание необходимо реализовать в виде функции
+# my_func(x, y). При решении задания необходимо обойтись без встроенной
+# функции возведения числа в степень.
+arg1 = input('Введите _положительное_ число: ')
+arg2 = input('Введите _целое отрицательное_ число: ')
+arg1 = int(arg1)
+arg2 = int(arg2)
+def my_func (x, y):
+	result = 1
+	for i in range(-y):
+		result *= x
+	return result
+print(my_func(arg1, arg2))

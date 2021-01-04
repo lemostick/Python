@@ -1,39 +1,24 @@
-# print ('Введите через ", " числа для создания списка')
-# glist = input ('> ')
-# print (glist)
-# print (glist.split(', '))
-
-# j = 0
-# for i in range(int(len(glist)/2)):
-#   glist[j], glist[j+1] = glist[j+1], glist[j]
-#   j += 2
+name = input('Введите имя:\n')
+surname = input('Введите фамилмю:\n')
+year = int(input('Введите год вашего рождения:\n'))
+city = input('Введите город, в котором вы родились:\n')
+email = input('Введите ваш email:\n')
+telephone = input('Введите ваш номер телефона:\n')
+test = ()
 
 
-userlength = int(input('Введите количество элементов списка: '))
-glist = []
-i = 0
-n = 0
-while i < userlength:
-    my_list.append(input('Введите следующее значение списка: '))
-    i += 1
+#Здесь я так и не разобрался как выполнить. 
+#Времени, к сожалению, не хватило. А дедлайн уже через 15 минут.
 
-for test in range(int(len(glist)/2)):
-        glist[n], glist[n + 1] = glist [n + 1], glist[n]
-        n += 2
-print(glist)
+
+# def my_func (name, surname, year, city, email, telephone):
+#      return .join([name, surname, year, city, email, telephone])
+# print(my_func(surname = surname, name = name, year = year, city = city, email = email, telephone = telephone)) 
 
 
 
+#def printfunc1 (name, surname, year, city, email, telephone):
+#	return test.join([name, surname, year, city, email, telephone])
 
 
-
-
-# for i in glist.count():
-# 	n = 0
-# 	glist[n], glist[n+1] = glist[n+1], glist[n]
-# 	n += 2
-# 	print (i)
-
-# A = [ 'ж', 4, 5, 7]
-# A[0], A[1] = A[1], A[0]
-# print (A)
+#print (printfunc1(surname, name, year, city, email, telephone))

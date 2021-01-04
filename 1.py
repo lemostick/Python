@@ -1,6 +1,11 @@
-list = [192, 'String', 17.5, True]
-print ('Первый элемент списка - ' + str(type(list[0])))
-print ('Второй элемент списка - ' + str(type(list[1])))
-print ('Третий элемент списка - ' + str(type(list[2])))
-print ('Четвертый элемент списка - ' + str(type(list[3])))
-print ("       Справка: \nint - целое число\nstr - строка (текст)\nfloat - число с дробной частью\nbool - булево значение (True/False")
+def div(*args):
+	try:
+		arg1 = int(input("Введите делимое число: "))
+		arg2 = int(input("Введите делитель: "))
+		res = arg1 / arg2
+	except ValueError:
+		return 'Числовая ошибка.'
+	except ZeroDivisionError:
+		return "Ошибка. На ноль делить нельзя."
+	return res
+print (div())
