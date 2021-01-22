@@ -1,0 +1,3 @@
+Infotech 100 50 20 
+Physics 30 25 10
+IDUNNO 312 120 20

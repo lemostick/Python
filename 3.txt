@@ -1,0 +1,8 @@
+Morgan 16500
+Marston 45000
+Rivers 32750
+Boon 14325
+Carmack 78000
+Kodjima 65000
+Spenser 60000
+Howard 65000 
